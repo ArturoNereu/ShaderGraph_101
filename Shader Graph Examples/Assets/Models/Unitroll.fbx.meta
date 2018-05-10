@@ -193,7 +193,7 @@ ModelImporter:
     13700000: Unitroll_Body_uv1
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
