@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: HelloPBRMat
-  m_Shader: {fileID: 4800000, guid: 14cb7af3b4ff1ec4a994595df74891fa, type: 3}
+  m_Name: RimLightMat
+  m_Shader: {fileID: 4800000, guid: b981a947fe6113b4180d0dc63ede9bd1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,21 +18,19 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Texture2DAsset_351F0872_Out:
+    - Texture_26B0EDD8:
         m_Texture: {fileID: 2800000, guid: 9721c406cf3cb414798908684b51541b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_DB6E3EED_Out:
-        m_Texture: {fileID: 2800000, guid: 30fa661d63eadce4294fda2a0616b493, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_DFB52601_Out:
-        m_Texture: {fileID: 2800000, guid: 9e92a31cea8b18848b386764067687b0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_E6FFA9A0_Out:
+    - Texture_8C8C140C:
         m_Texture: {fileID: 2800000, guid: a7b87a36c858de8419415636d96adb61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - Texture_D1DE561F:
+        m_Texture: {fileID: 2800000, guid: 30fa661d63eadce4294fda2a0616b493, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats: []
-    m_Colors: []
+    m_Colors:
+    - Color_5AAFF400: {r: 1.8069141, g: 2.9742362, b: 0.46297076, a: 1}
+    - Color_6233B1B4: {r: 0.4699079, g: 0.5377358, b: 0.0025364957, a: 1}
