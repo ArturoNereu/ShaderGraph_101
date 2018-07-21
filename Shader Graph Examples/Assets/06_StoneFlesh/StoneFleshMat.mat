@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: StoneFleshMat
   m_Shader: {fileID: 4800000, guid: 95c2cd753f6baa9428340a9e042bd906, type: 3}
@@ -18,6 +18,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_4F01F44:
+        m_Texture: {fileID: 2800000, guid: 9721c406cf3cb414798908684b51541b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_52D30BE2:
+        m_Texture: {fileID: 2800000, guid: a7b87a36c858de8419415636d96adb61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B5288C3E:
+        m_Texture: {fileID: 2800000, guid: 260d3520e6d31ac46868a16ed74c5880, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture_4F01F44:
         m_Texture: {fileID: 2800000, guid: 9721c406cf3cb414798908684b51541b, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -71,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_C83277DD: 0.628
+    - Vector1_C83277DD: 0.616
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

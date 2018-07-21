@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: NoiseMat
   m_Shader: {fileID: 4800000, guid: c965a5e359f9b9a4d85141a629892893, type: 3}
@@ -18,6 +18,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_3EBE3E2E:
+        m_Texture: {fileID: 2800000, guid: a7b87a36c858de8419415636d96adb61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_50AF55A0:
+        m_Texture: {fileID: 2800000, guid: 9721c406cf3cb414798908684b51541b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F035BD56:
+        m_Texture: {fileID: 2800000, guid: 30fa661d63eadce4294fda2a0616b493, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture_3EBE3E2E:
         m_Texture: {fileID: 2800000, guid: a7b87a36c858de8419415636d96adb61, type: 3}
         m_Scale: {x: 1, y: 1}

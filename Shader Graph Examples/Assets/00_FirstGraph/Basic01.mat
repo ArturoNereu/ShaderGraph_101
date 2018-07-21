@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: VertexAnimMat
-  m_Shader: {fileID: 4800000, guid: 7adf6b00d36b9ba4b99e7312b9465f22, type: 3}
+  m_Name: Basic01
+  m_Shader: {fileID: 4800000, guid: 8014bd76b6fd1b6458f4bb7ecac8553a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,5 +20,4 @@ Material:
     m_TexEnvs: []
     m_Floats: []
     m_Colors:
-    - Color_FC264D52: {r: 0.754717, g: 0.45484906, b: 0.23139909, a: 0}
-    - Vector3_B1A78F22: {r: 0, g: 0, b: 0, a: 0}
+    - Color_A9B01CE7: {r: 0.4301246, g: 0.8679245, b: 0.20060521, a: 0}
