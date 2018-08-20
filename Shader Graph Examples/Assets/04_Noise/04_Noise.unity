@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -116,9 +116,9 @@ NavMeshSettings:
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 282840814}
   - component: {fileID: 282840813}
@@ -133,20 +133,24 @@ GameObject:
 --- !u!81 &282840811
 AudioListener:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
   m_Enabled: 1
 --- !u!20 &282840813
 Camera:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -176,7 +180,7 @@ Camera:
 --- !u!4 &282840814
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
   m_LocalRotation: {x: -0.18922742, y: 0.29581204, z: -0.0599057, w: -0.93439794}
@@ -199,7 +203,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: f5f17511fb6bc4b4d82532d3ab28ce59, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: f5f17511fb6bc4b4d82532d3ab28ce59, type: 3}
       propertyPath: m_LocalPosition.z
@@ -250,8 +254,8 @@ Prefab:
       value: 
       objectReference: {fileID: 2100000, guid: 6360adc8dc1109642a744fe0fc6cf549, type: 2}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: f5f17511fb6bc4b4d82532d3ab28ce59, type: 3}
-  m_IsPrefabParent: 0
+  m_SourcePrefab: {fileID: 100100000, guid: f5f17511fb6bc4b4d82532d3ab28ce59, type: 3}
+  m_IsPrefabAsset: 0
 --- !u!1001 &1152890946
 Prefab:
   m_ObjectHideFlags: 0
@@ -335,14 +339,14 @@ Prefab:
       value: 0.4986205
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 6f8efd0bb43ad1e489bb30d3b45504b6, type: 2}
-  m_IsPrefabParent: 0
+  m_SourcePrefab: {fileID: 100100000, guid: 6f8efd0bb43ad1e489bb30d3b45504b6, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1635431471
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 1635431472}
   - component: {fileID: 1635431473}
@@ -356,7 +360,7 @@ GameObject:
 --- !u!4 &1635431472
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1635431471}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -369,7 +373,7 @@ Transform:
 --- !u!108 &1635431473
 Light:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1635431471}
   m_Enabled: 1
@@ -396,6 +400,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -404,6 +409,6 @@ Light:
   m_ShadowAngle: 0
 --- !u!4 &1719848432 stripped
 Transform:
-  m_PrefabParentObject: {fileID: 4075533411253874, guid: 6f8efd0bb43ad1e489bb30d3b45504b6,
+  m_CorrespondingSourceObject: {fileID: 4075533411253874, guid: 6f8efd0bb43ad1e489bb30d3b45504b6,
     type: 2}
   m_PrefabInternal: {fileID: 1152890946}
