@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: DissolveMat
   m_Shader: {fileID: 4800000, guid: 28eae9d5bc329e444a5c0761e2cdfe80, type: 3}
   m_ShaderKeywords: 
@@ -18,7 +19,15 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_2D961D18:
+        m_Texture: {fileID: 2800000, guid: 30fa661d63eadce4294fda2a0616b493, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_321D3975:
+        m_Texture: {fileID: 2800000, guid: a7b87a36c858de8419415636d96adb61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_3D041CCF:
         m_Texture: {fileID: 2800000, guid: a7b87a36c858de8419415636d96adb61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -28,6 +37,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - Texture2D_C1DBBF4E:
         m_Texture: {fileID: 2800000, guid: 30fa661d63eadce4294fda2a0616b493, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_CC6C9D81:
+        m_Texture: {fileID: 2800000, guid: 9721c406cf3cb414798908684b51541b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture_321D3975:
@@ -44,4 +57,5 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
+    - Color_5B8149BE: {r: 2.665491, g: 2.670157, b: 2.581991, a: 1}
     - Color_DEEEB930: {r: 1, g: 1, b: 1, a: 1}
